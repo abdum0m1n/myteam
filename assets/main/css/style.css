@@ -1,0 +1,436 @@
+/* livvic-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/livvic-v14-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* livvic-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/livvic-v14-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* livvic-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/livvic-v14-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* livvic-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/livvic-v14-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+  /* nav start */
+  /* .nv{
+    background:  #014E56;
+  } */
+  .brand:hover{
+    color: #FFFFFF;
+  }
+  .nv-btn:hover{
+    background: #FFFFFF;
+    color: #002529;
+    cursor:  url(../img/cursor.svg), pointer;
+    
+  }
+  .item:hover{
+    color: #F67E7E;
+    cursor:  url(../img/cursor.svg), pointer;
+  }
+  .item{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Livvic';
+    font-weight: 600;
+  }
+  .brand{
+    color: #FFFFFF;
+    margin-right: 50px;
+  }
+  .nav-btn{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding:  5px 20px;
+    border: 1px #FFFFFF solid;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: 'Livvic';
+    font-weight: 600;
+  }
+  /* nav end */
+
+
+
+
+
+  /* header start */
+  .header{
+    padding: 20px 0 150px 0;
+  }
+  .h-h1{
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Livvic';
+    color: #FFFFFF;
+  }
+  .h-span{
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Livvic';
+    color:  #F67E7E ;
+  }
+  .h-pp{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Livvic';
+    color: #FFFFFF;
+  }
+  .chiziq{
+    width: 50px;
+    height: 1px;
+    border: 1px solid #79C8C7;
+  }
+  /* header end */
+
+
+
+
+  /* header2 start */
+  .m-h2{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Livvic';
+  }
+  .m-h5{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Livvic';
+    color: #F67E7E;
+  }
+  .m-p{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Livvic';
+    color: #FFFFFF;
+  }
+  /* header2 end */
+
+
+
+
+  /* main start */
+  .m2-p{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Livvic';
+    margin-bottom: 30px;
+  }
+  .m2-p2{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Livvic';
+    font-style: italic;
+  }
+  .m2-span{
+    color: #79C8C7;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Livvic';
+  }
+  .m2-h3{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Livvic';
+  }
+  .belgi{
+    margin-bottom: -20px;
+  }
+  .m2-h5{
+    color: #79C8C7;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Livvic';
+  }
+  /* main end */
+
+
+
+
+
+
+  /* contact start */
+  .c-btn:hover{
+    background: #012F34;
+    color: #FFFFFF !important;
+    cursor:  url(../img/cursor.svg), pointer;
+  }
+  .c-h1{
+    color: #012F34;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Livvic';
+  }
+  /* contact end */
+
+
+
+
+  /* footer start */
+  .f-icon:hover{
+    color: #F67E7E;
+    cursor:  url(../img/cursor.svg), pointer;
+  }
+  .f-icon{
+    color: #FFFFFF;
+    font-size: 30px;
+  }
+  .parent3{
+    display: none;
+  }
+  .f-p{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Livvic';
+  }
+  /* footer end */
+  /* about main start */
+  .pluss{
+    color: #F67E7E;
+    font-size: 50px;
+    border-radius: 100%;
+    background: #012F34;
+  }
+  .x{
+    font-size: 50px;
+    border-radius: 100%;
+    background: #012F34;
+    color: #79C8C7;
+  }
+  .x:hover{
+    color: #F67E7E;
+    cursor:  url(../img/cursor.svg), pointer;
+  }
+  .pluss:hover{
+    color: #79C8C7;
+    cursor:  url(../img/cursor.svg), pointer;
+  }
+  .m2-p5{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Livvic';
+    width: 80%;
+    text-align: center;
+  }
+  /* about main end */
+
+
+
+  /*  main contact start */
+  .c-input{
+    width: 100%;
+    height: 35px;
+    color: #FFFFFF;
+    background:none;
+    font-family: 'Livvic';
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 0;
+    border: none;
+    border-bottom: #FFFFFF solid 2px !important;
+    
+  }
+  .c-input:focus{
+    outline: none;
+  }
+  .c-h2{
+    font-size: 32px;
+    font-family: 'Livvic';
+    font-weight: 700;
+    color: #F67E7E;
+  }
+  /*  main contact end */
+
+
+
+
+  /* navbar sm  */
+  .ix{
+    font-size: 30px;
+    color: #FFFFFF;
+  }
+  .container90{
+    width: 90%;
+    margin: auto;
+  }
+
+  .menu{
+    display: none;
+    color: #FFFFFF;
+    font-size: 30px;
+  }
+  .nv-modal{
+    background: url(../img/nav.jpg)no-repeat center/cover;
+    left: 30%;
+    z-index: 3;
+    top: 0px;
+    right: 30vw;
+    display: none;
+    position: fixed;
+    width: 70vw;
+    height: 100vh;
+  }
+  .fad{
+    animation: fad 1s;
+  }
+  @keyframes fad {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  @media screen and (max-width:500px) {
+    .btn-none{
+      display: none;
+    }
+    .ul-none{
+      display: none !important;
+    }
+    .menu{
+      display: block;
+    }
+  }
+  /* navbar sm */
+  @media screen and (max-width:992px) {
+    .c-h2{
+      text-align: center;
+    }
+    .h-wrapper{
+      flex-direction: column;
+      align-items: center;
+    }    
+    .chizi{
+      display: none;
+    }
+    .h-p , .head{
+      width: 70% !important;
+    }
+    .h-pp{
+      text-align: center;
+      font-size: 15px;
+    }
+    .h-h1 , .h-span{
+      font-size: 64px;
+      text-align: center;
+    }
+    .header{
+      background: url(../img/md-header.jpg)no-repeat center/cover;
+      padding: 50px 0 200px 0;
+    }
+    .m-wrapper{
+      flex-direction: column;
+      align-items: center;
+    }
+    .m-head , .logo-cards{
+      width: 100% !important;
+    }
+    .m-h2{
+      width: 90% !important;
+      font-size: 32px;
+    }
+    .c-h1{
+      font-size: 32px;
+    }
+    .f-wrapper{
+      flex-direction: column;
+    }
+    .parent {
+      width: 100% !important;
+      margin-bottom: 30px;
+    }
+    .parent2{
+      display: none !important;
+    }
+    .parent3{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .m2-h3 , .m2-span{
+      font-size: 32px;
+    }
+  }
+  @media screen and (max-width:500px) {
+    .h-h1 , .h-span{
+      font-size: 40px;
+    }
+    .child{
+      flex-direction: column;
+    }
+    .parent3{
+      flex-direction: column;
+      align-items: center;
+    }
+    .btns{
+      margin-bottom: 30px;
+    }
+    .bran{
+      text-align: center ;
+      width: 100%;
+    }
+    .f-p{
+      text-align: center;
+    }
+    .icons{
+      margin-bottom: 20px;
+    }
+    .cardss{
+      display: block !important;
+      
+    }
+    .card-icon{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    .m-p{
+      text-align: center;
+    }
+    .m-h4{
+      text-align: center;
+    }
+    .h-p , .head{
+      width: 90% !important;
+    }
+    .m-h2{
+      width: 70% !important;
+    }
+    .c-wrapper{
+      /* display: block !important; */
+      flex-direction: column;
+    }
+    .c-h1{
+      text-align: center;
+    }
+  }
